@@ -1,6 +1,7 @@
 import {Component} from "react";
 import home from '../images/home/watchvintage.png';
 import home0 from '../images/home/vintagewatch02.png';
+import logo from '../images/LOGO.png';
 export class Home extends Component {
     render() {
         return (
@@ -36,7 +37,7 @@ export class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <main className="dark:bg-gray-800 bg-white relative overflow-hidden h-screen pt-16">
+                <main className="dark:bg-gray-800 bg-white h-screen pt-16">
 
                     <header className="h-20 sm:h-30 flex items-center z-30 w-full">
 
@@ -100,6 +101,27 @@ export class Home extends Component {
                             </div>
                         </div>
                     </div>
+
+                    <section className="bg-gray-800">
+                        <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+                            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+                                <div className="max-w-lg">
+                                    <h2 className="text-5xl font-extrabold font-mono text-white text-center">About Us</h2>
+                                    <p className="mt-4 text-white font-medium font-sans text-lg">All The Watch Are in Vintage and it condition like brand new.
+                                        We are in ZEN Watch Hub We Sell in Vintage Watch In ourt Store.
+                                        This Watch are some one Used but it is perfect brand new Condition.
+                                        Please feel free to contact us anytime.
+                                        We are always happy to help you and happy to find what you are looking for.
+                                        If you have any trouble with your items please feel free to contact us first, we will do our best.</p>
+
+                                </div>
+                                <div className="mt-12 md:mt-0">
+                                    <img className="object-cover rounded-lg shadow-md cursor-pointer" src={logo}/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
                 </main>
 
             </div>
