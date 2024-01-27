@@ -8,6 +8,7 @@ import product03 from '../images/product/product03.jpg';
 import product04 from '../images/product/prodcut04.jpg';
 import product05 from '../images/product/prodcut05.jpg';
 import product06 from '../images/product/product06.jpg';
+import product07 from '../images/home/rolex01.jpg';
 export class Home extends Component {
     render() {
         return (
@@ -381,6 +382,21 @@ export class Home extends Component {
                                         </svg>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section className="px-3 py-5  lg:py-10 bg-gray-800">
+                        <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
+                            <div className="order-2 lg:order-1 flex flex-col justify-center items-center">
+                                <p className="text-4xl font-bold md:text-7xl text-orange-600">25% OFF</p>
+                                <p className="text-4xl font-bold md:text-7xl text-white">SUMMER SALE</p>
+                                <p className="mt-2 text-sm md:text-lg text-white">For limited time only!</p>
+                                <a href="#product" className="text-lg md:text-2xl bg-black text-white py-2 px-5 mt-10 hover:bg-zinc-800">
+                                    Buy Now</a>
+                            </div>
+                            <div className="order-1 lg:order-2">
+                                <img className="h-80 w-80 object-cover lg:w-[500px] lg:h-[500px] duration-500 hover:scale-105 hover:shadow-xl" src={product07}/>
                             </div>
                         </div>
                     </section>
