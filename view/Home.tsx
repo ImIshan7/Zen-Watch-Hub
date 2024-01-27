@@ -63,7 +63,7 @@ export class Home extends Component {
                                     <a href="#product" className="py-2 px-6 flex font-semibold">
                                         Products
                                     </a>
-                                    <a href="#" className="py-2 px-6 flex font-semibold">
+                                    <a href="#contact" className="py-2 px-6 flex font-semibold">
                                         Contact
                                     </a>
                                 </nav>
@@ -403,7 +403,7 @@ export class Home extends Component {
 
                     <div className="bg-gray-800 py-12">
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                            <div className="lg:text-center">
+                            <div id="contact" className="lg:text-center">
                                 <h2 className="tracking-wide uppercase text-5xl font-extrabold font-mono text-white">Contact US</h2>
                                 <p className="mt-4 max-w-2xl text-xl text-white lg:mx-auto font-medium">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam voluptatum cupiditate veritatis
@@ -508,6 +508,38 @@ export class Home extends Component {
                         </div>
                     </div>
 
+
+                    <div className="px-3 py-6 bg-gray-800 text-white">
+                        <div className="mx-auto flex flex-col items-center justify-between gap-6 sm:flex-row max-w-screen-lg">
+                            <div className="sm:w-7/12">
+                                <div className="text-3xl font-bold">
+                                    Subscribe to my
+                                    <span className="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">
+              Newsletters
+            </span>
+                                </div>
+                                <p className="mt-3 text-gray-300">
+                                    Subscribe to Our Newsletters for Exclusive Updates and Insights!
+                                    Subscribe to Our Newsletters for Curated Content and Exclusive Updates!
+                                </p>
+                            </div>
+                            <div className="w-full sm:w-5/12">
+                                <form className="flex rounded-full bg-slate-800 px-4 py-2 focus-within:ring-2 focus-within:ring-cyan-600 hover:ring-2 hover:ring-cyan-600">
+                                    <input
+                                        className="w-full appearance-none bg-slate-800 focus:outline-none text-white"
+                                        type="email"  // Specify the input type if it's an email subscription
+                                        placeholder="Your email"
+                                    />
+                                    <button
+                                        className="ml-2 shrink-0 rounded-full bg-gradient-to-br from-sky-500 to-cyan-400 px-3 py-1 text-sm font-medium hover:from-sky-700 hover:to-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600/50"
+                                        type="submit"
+                                    >
+                                        Subscribe
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
 
                 </main>
 
