@@ -406,8 +406,8 @@ export class Home extends Component {
                             <div id="contact" className="lg:text-center">
                                 <h2 className="tracking-wide uppercase text-5xl font-extrabold font-mono text-white">Contact US</h2>
                                 <p className="mt-4 max-w-2xl text-xl text-white lg:mx-auto font-medium">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam voluptatum cupiditate veritatis
-                                    in, accusamus quisquam.
+                                    Whether you have questions, feedback, or just want to say hello, we're here to listen.
+                                    Drop us a message, and let's start a conversation!
                                 </p>
                             </div>
 
@@ -509,8 +509,8 @@ export class Home extends Component {
                     </div>
 
 
-                    <div className="px-3 py-6 bg-gray-800 text-white">
-                        <div className="mx-auto flex flex-col items-center justify-between gap-6 sm:flex-row max-w-screen-lg">
+                    <div className="px-3 py-6 bg-black text-white ">
+                        <div className=" mx-auto flex flex-col items-center justify-between gap-6 sm:flex-row max-w-screen-lg">
                             <div className="sm:w-7/12">
                                 <div className="text-3xl font-bold">
                                     Subscribe to my
@@ -540,6 +540,35 @@ export class Home extends Component {
                             </div>
                         </div>
                     </div>
+
+                    <footer className="flex flex-col space-y-10 justify-center bg-gray-800 max-w-screen ">
+
+                        <nav className=" mt-10 flex justify-center flex-wrap gap-6 text-white font-medium text-xl">
+                            <a className="hover:text-yellow-400" href="#">Home</a>
+                            <a className="hover:text-yellow-400" href="#about">About</a>
+                            <a className="hover:text-yellow-400" href="#product">Product</a>
+                            <a className="hover:text-yellow-400" href="#contact">Contact</a>
+                        </nav>
+
+                        <div className="flex justify-center space-x-5">
+                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                                <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+                            </a>
+                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+                            </a>
+                            <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
+                                <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+                            </a>
+                        </div>
+                        <p className="text-center text-white font-semibold">&copy; 2024 Zen Watch Hub. All rights reservered.</p>
+                    </footer>
 
                 </main>
 
