@@ -50,21 +50,21 @@ export class Home extends Component {
                     <header className="h-20 sm:h-30 flex items-center z-30 w-full">
 
                         <div className="container mx-auto px-6 flex items-center justify-between">
-                            <div className="uppercase text-yellow-400 font-black text-3xl">
+                            <div className="uppercase  underline text-yellow-400 font-black text-3xl">
                                 ZEN Watch Hub
                             </div>
                             <div className="flex items-center">
                                 <nav className="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden  rounded-md">
-                                    <a href="#home" className="py-2 px-6 flex font-semibold">
+                                    <a href="#home" className="py-2 px-6 flex font-semibold leading-none rounded-full hover:bg-black">
                                         Home
                                     </a>
-                                    <a href="#about" className="py-2 px-6 flex font-semibold">
+                                    <a href="#about" className="py-2 px-6 flex font-semibold leading-none rounded-full hover:bg-black">
                                         About
                                     </a>
-                                    <a href="#product" className="py-2 px-6 flex font-semibold">
+                                    <a href="#product" className="py-2 px-6 flex font-semibold leading-none rounded-full hover:bg-black">
                                         Products
                                     </a>
-                                    <a href="#contact" className="py-2 px-6 flex font-semibold">
+                                    <a href="#contact" className="py-2 px-6 flex font-semibold leading-none rounded-full hover:bg-black">
                                         Contact
                                     </a>
                                     <button  className="py-4 px-1 relative border-2 border-transparent text-white rounded-full hover:text-gray-400 focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out" aria-label="Cart">
@@ -105,11 +105,11 @@ export class Home extends Component {
                                 </div>
                             </div>
                             <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
-                                <img className="max-w-xl md:max-w-xl m-auto cursor-pointer" src={home0}/>
+                                <img className="max-w-xl md:max-w-xl m-auto cursor-pointer duration-500 hover:scale-105 hover:shadow-xl" src={home0}/>
 
                             </div>
                             <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
-                                <img className="max-w-xl md:max-w-xl m-auto cursor-pointer" src={home}/>
+                                <img className="max-w-xl md:max-w-xl m-auto cursor-pointer duration-500 hover:scale-105 hover:shadow-xl" src={home}/>
 
                             </div>
                         </div>
@@ -119,7 +119,7 @@ export class Home extends Component {
                         <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
                             <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
                                 <div className="max-w-lg">
-                                    <h2 className="text-5xl font-extrabold font-mono text-white text-center">About Us</h2>
+                                    <h2 className="text-5xl font-extrabold font-mono underline text-white text-center">About Us</h2>
                                     <p className="mt-4 text-white font-medium font-sans text-lg">All The Watch Are in Vintage and it condition like brand new.
                                         We are in ZEN Watch Hub We Sell in Vintage Watch In ourt Store.
                                         This Watch are some one Used but it is perfect brand new Condition.
@@ -136,7 +136,7 @@ export class Home extends Component {
                     </section>
 
                     <div id="product" className="text-center p-10 bg-gray-800">
-                        <h1 className="text-5xl font-extrabold font-mono text-white ">latest Watch Collection</h1>
+                        <h1 className="text-5xl font-extrabold font-mono underline text-white ">latest Watch Collection</h1>
 
                     </div>
 
@@ -311,7 +311,7 @@ export class Home extends Component {
 
                     <section className="bg-gray-800 px-4 py-12 md:py-24">
                         <div className="max-w-screen-xl mx-auto">
-                            <h2 className="  text-5xl font-extrabold font-mono text-white text-center  leading-none uppercase max-w-2xl mx-auto mb-12">Customer Reviews</h2>
+                            <h2 className="  text-5xl font-extrabold font-mono text-white text-center  leading-none uppercase max-w-2xl underline mx-auto mb-12">Customer Reviews</h2>
                             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 relative">
                                 <div className="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
                                     <p className="font-bold uppercase">John Doe</p>
@@ -405,12 +405,77 @@ export class Home extends Component {
                                 <img className="h-80 w-80 object-cover lg:w-[500px] lg:h-[500px] duration-500 hover:scale-105 hover:shadow-xl" src={product07}/>
                             </div>
                         </div>
+
                     </section>
+
+
+
+                    <div className="max-w-full-xl mx-auto py-8 px-4 lg:py-16 lg:px-6 bg-gray-800">
+                        <div className=" mb-10">
+                            <h2  className="text-5xl font-extrabold font-mono  underline text-white text-center">Our Benefits</h2>
+                        </div>
+
+                        <div className="flex flex-col md:flex-row">
+
+                            <div className="mr-0 md:mr-8 mb-6 md:mb-0">
+
+                                <img className="w-1/2 md:w-full mx-auto  duration-500 hover:scale-110 hover:shadow-xl" src={product01}/>
+
+                            </div>
+
+
+                            <div className="flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2">
+                                <div className="w-full sm:w-1/2 mb-4 px-2 ">
+                                    <div className="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                                        <h3 className="text-2xl font-bold font-mono text-white underline text-md mb-6">Money-Back Guarantee</h3>
+                                        <p className="text-lg text-white"> If you are not satisfied with the quality of a product,
+                                            you can return it within a month of purchase for a 100% refund </p>
+                                    </div>
+                                </div>
+                                <div className="w-full sm:w-1/2 mb-4 px-2 ">
+                                    <div className="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                                        <h3 className="text-2xl font-bold font-mono text-white underline text-md mb-6">Payment</h3>
+                                        <p className="text-lg text-white">
+                                            You can Pay credit card, debit card, paypal, Apple pay, Google pay, American Express, Discover etc.
+                                            All The payment Method Allowed this store </p>
+                                    </div>
+                                </div>
+
+                                <div className="w-full sm:w-1/2 mb-4 px-2 ">
+                                    <div className="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                                        <h3 className="text-2xl font-bold font-mono text-white underline text-md mb-6">Express Delivery</h3>
+                                        <p className="text-lg text-white">Handling time is based on our shipping policy.
+                                            We will do our best to ship fast and ship your item very carefully.
+                                            Estimated arrival date:
+                                            SAL(Japan Post) :2-4 weeks
+                                            e packet:2-3 weeks
+                                            EMS:1-3 weeks
+                                            DHL :1-2 weeks
+                                            Yamato:1-2 weeks
+                                            Fedex:1-2 weeks </p>
+                                    </div>
+                                </div>
+
+                                <div className="w-full sm:w-1/2 mb-4 px-2 ">
+                                    <div className="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                                        <h3 className="text-2xl font-bold font-mono text-white underline text-md mb-6">Free Returns</h3>
+                                        <p className="text-lg text-white">
+                                            If an item doesn’t fit you, we’ll take care of it. You can return any item
+                                            for free by mail or via a scheduled pickup from your home.</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
 
                     <div className="bg-gray-800 py-12">
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                             <div id="contact" className="lg:text-center">
-                                <h2 className="tracking-wide uppercase text-5xl font-extrabold font-mono text-white">Contact US</h2>
+                                <h2 className="tracking-wide uppercase text-5xl font-extrabold font-mono underline text-white">Contact US</h2>
                                 <p className="mt-4 max-w-2xl text-xl text-white lg:mx-auto font-medium">
                                     Whether you have questions, feedback, or just want to say hello, we're here to listen.
                                     Drop us a message, and let's start a conversation!
