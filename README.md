@@ -32,11 +32,14 @@ Zen Watch Hub is a sleek, user-friendly web store built with **React** and **Tai
 
 ## 🌈 Screenshots
 
-![Homepage](https://your-image-url.com/screenshot1.png)  
+![Homepage](src/assets/Screenshot01.png)  
 *Zen Watch Hub Home Page*
 
-![Product Page](https://your-image-url.com/screenshot2.png)  
-*Browse the latest watches*
+![Productpage](src/assets/Screenshot02.png)  
+*Zen Watch Hub Product Page*
+
+![Blogpage](src/assets/Screenshot03.png)  
+*Zen Watch Hub Blog Page*
 
 ---
 
