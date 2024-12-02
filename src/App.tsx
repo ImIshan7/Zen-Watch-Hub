@@ -1,25 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Layout from './components/Layout';
+import Hero from './components/Hero';
+import Featured from './components/Featured';
+import About from './components/About';
+import Products from './components/Products';
+import Benefits from './components/Benefits';
+import Gallery from './components/Gallery';
+import Blog from './components/Blog';
+import Deals from './components/Deals';
+import FAQ from './components/FAQ';
+import Wishlist from './components/Wishlist';
+import Reviews from './components/Reviews';
+import Newsletter from './components/Newsletter';
+import Contact from './components/Contact';
+import { CartProvider } from './context/CartContext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <CartProvider>
+        <Layout>
+          <Hero />
+          <Featured />
+          <About />
+          <Benefits />
+          <Products />
+          <Gallery />
+          <Blog />
+          <Deals />
+          <Wishlist />
+          <FAQ />
+          <Reviews />
+          <Newsletter />
+          <Contact />
+        </Layout>
+      </CartProvider>
   );
 }
 
